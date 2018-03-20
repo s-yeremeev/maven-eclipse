@@ -15,7 +15,7 @@ public class SpringConfig {
 	public static PropertySourcesPlaceholderConfigurer propertyConfigurer() {
 		Properties properties = new Properties();
 		properties.setProperty("server.url", "https://github.com/");
-		properties.setProperty("webDriver.quitAfterTests", "false");
+		properties.setProperty("webDriver.quitAfterTests", "true");
 		properties.setProperty("webDriver.browser.width", "1800");
 		properties.setProperty("webDriver.browser.height", "900");
 

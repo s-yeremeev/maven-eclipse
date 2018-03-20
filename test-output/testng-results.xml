@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5635" started-at="2018-03-20T16:34:27Z" finished-at="2018-03-20T16:34:33Z">
+  <suite name="Default suite" duration-ms="5425" started-at="2018-03-20T16:46:41Z" finished-at="2018-03-20T16:46:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5635" started-at="2018-03-20T16:34:27Z" finished-at="2018-03-20T16:34:33Z">
+    <test name="Default test" duration-ms="5425" started-at="2018-03-20T16:46:41Z" finished-at="2018-03-20T16:46:47Z">
       <class name="spring.maven.TestSpring">
-        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="9" started-at="2018-03-20T16:34:27Z" finished-at="2018-03-20T16:34:27Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="10" started-at="2018-03-20T16:46:41Z" finished-at="2018-03-20T16:46:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="314" started-at="2018-03-20T16:34:27Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-03-20T16:34:27Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="310" started-at="2018-03-20T16:46:41Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-03-20T16:46:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="openChrome()[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="openChrome" is-config="true" duration-ms="2707" started-at="2018-03-20T16:34:27Z" finished-at="2018-03-20T16:34:30Z">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="openChrome" is-config="true" duration-ms="2741" started-at="2018-03-20T16:46:42Z" finished-at="2018-03-20T16:46:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-03-20T16:34:30Z" finished-at="2018-03-20T16:34:30Z">
+        <test-method status="PASS" signature="t_01()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="t_01" duration-ms="2358" started-at="2018-03-20T16:46:44Z" finished-at="2018-03-20T16:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t_01 -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-03-20T16:46:44Z" finished-at="2018-03-20T16:46:44Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="t_01()[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="t_01" duration-ms="2586" started-at="2018-03-20T16:34:30Z" finished-at="2018-03-20T16:34:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- t_01 -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-03-20T16:34:33Z" finished-at="2018-03-20T16:34:33Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-03-20T16:46:47Z" finished-at="2018-03-20T16:46:47Z">
           <params>
             <param index="0">
               <value>
@@ -45,10 +45,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:spring.maven.TestSpring@1b26f7b2]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-03-20T16:34:33Z" finished-at="2018-03-20T16:34:33Z">
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2018-03-20T16:46:47Z" finished-at="2018-03-20T16:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="closeChrome()[pri:0, instance:spring.maven.TestSpring@74ad1f1f]" name="closeChrome" is-config="true" duration-ms="0" started-at="2018-03-20T16:46:47Z" finished-at="2018-03-20T16:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
       </class> <!-- spring.maven.TestSpring -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
